@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12304a"/>
+      <stop offset="1" stop-color="#050c14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#3cc8ff" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#3cc8ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="arrow" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#1a7dff"/>
+      <stop offset=".6" stop-color="#2fc4ff"/>
+      <stop offset="1" stop-color="#8ff4ff"/>
+    </linearGradient>
+    <linearGradient id="arrowDark" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a3f9a"/>
+      <stop offset="1" stop-color="#1580d8"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff4fd8" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#ff4fd8"/>
+      <stop offset="1" stop-color="#ff8fe6"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="256" height="256" rx="58"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="256" height="256" fill="url(#bg)"/>
+    <rect width="256" height="256" fill="url(#glow)"/>
+    <!-- horizonte / arco de rumbo -->
+    <path d="M-20 210 A 230 230 0 0 1 276 150" fill="none" stroke="#3cc8ff" stroke-opacity=".18" stroke-width="2"/>
+    <path d="M-20 232 A 260 260 0 0 1 276 178" fill="none" stroke="#3cc8ff" stroke-opacity=".10" stroke-width="2"/>
+    <!-- ruta con waypoints -->
+    <path d="M22 240 C 46 224, 70 196, 90 160" fill="none" stroke="url(#path)" stroke-width="7" stroke-linecap="round" stroke-dasharray="1 15"/>
+    <circle cx="42" cy="226" r="7" fill="#ff4fd8" stroke="#fff" stroke-width="3"/>
+    <circle cx="70" cy="196" r="7" fill="#ff4fd8" stroke="#fff" stroke-width="3"/>
+    <!-- flecha (mitad sombra + mitad luz, efecto 3D) -->
+    <g transform="translate(46,-16) scale(0.8)">
+    <path d="M212 44 L176 182 L140 146 L80 206 L50 176 L110 116 L74 80 Z" fill="url(#arrow)"/>
+    <path d="M212 44 L176 182 L140 146 L148 118 Z" fill="url(#arrowDark)" opacity=".85"/>
+    <path d="M212 44 L74 80 L110 116 L132 108 Z" fill="#ffffff" opacity=".22"/>
+    <path d="M212 44 L176 182 L140 146 L80 206 L50 176 L110 116 L74 80 Z" fill="none" stroke="#bff8ff" stroke-opacity=".55" stroke-width="3" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <rect x="2" y="2" width="252" height="252" rx="56" fill="none" stroke="#3cc8ff" stroke-opacity=".35" stroke-width="3"/>
+</svg>
