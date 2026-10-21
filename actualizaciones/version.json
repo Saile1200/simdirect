@@ -1,5 +1,5 @@
 {
-  "version": "1.8.0",
-  "zip": "SimDirect-1.8.0.zip",
-  "notes": "Nuevo: Skies. Editor de tiempo, atmósfera, luz y hora con vista previa realista y 12 cielos (atardeceres, noche, tormenta, cine)"
+  "version": "1.8.1",
+  "zip": "SimDirect-1.8.1.zip",
+  "notes": "Nuevo: el plan que metas a mano en el avión (FMS, EFB o mapa de MSFS) aparece solo en la app y se conecta con el mapa, el FMC y los anuncios"
 }
