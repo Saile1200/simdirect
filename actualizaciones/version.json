@@ -1,5 +1,5 @@
 {
-  "version": "1.8.2",
-  "zip": "SimDirect-1.8.2.zip",
-  "notes": "Jugadores online: pasa el ratón por encima de un avión para ver la línea del recorrido que ya lleva hecho (clic para dejarla fija)"
+  "version": "1.9.0",
+  "zip": "SimDirect-1.9.0.zip",
+  "notes": "Nueva carta aeronáutica (aeropuertos, pistas, VOR y NDB), recorrido de los jugadores con sus giros y los mapas ya no se quedan en gris al abrir MSFS"
 }
