@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0",
-  "zip": "SimDirect-1.9.0.zip",
-  "notes": "Nueva carta aeronáutica (aeropuertos, pistas, VOR y NDB), recorrido de los jugadores con sus giros y los mapas ya no se quedan en gris al abrir MSFS"
+  "version": "1.10.0",
+  "zip": "SimDirect-1.10.0.zip",
+  "notes": "Nuevo: diario de vuelos, nota de cada aterrizaje, radio con la frecuencia de cada fase (y al COM1), mapa encima de MSFS con Ctrl+Alt+M y adiós al «Map not available»"
 }
