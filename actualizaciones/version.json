@@ -1,5 +1,5 @@
 {
-  "version": "1.10.0",
-  "zip": "SimDirect-1.10.0.zip",
-  "notes": "Nuevo: diario de vuelos, nota de cada aterrizaje, radio con la frecuencia de cada fase (y al COM1), mapa encima de MSFS con Ctrl+Alt+M y adiós al «Map not available»"
+  "version": "1.11.0",
+  "zip": "SimDirect-1.11.0.zip",
+  "notes": "Modo rendimiento: MSFS más fluido con SimDirect abierto, con la misma calidad y los mismos presets"
 }
