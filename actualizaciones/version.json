@@ -1,5 +1,5 @@
 {
-  "version": "1.11.0",
-  "zip": "SimDirect-1.11.0.zip",
-  "notes": "Modo rendimiento: MSFS más fluido con SimDirect abierto, con la misma calidad y los mismos presets"
+  "version": "1.12.0",
+  "zip": "SimDirect-1.12.0.zip",
+  "notes": "DLSS automático: si tienes una NVIDIA RTX, SimDirect configura DLSS en MSFS él solo (Ajustes)"
 }
